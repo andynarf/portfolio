@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Col from 'react-bootstrap/col'
+import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import './intro.css'
 
