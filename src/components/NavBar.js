@@ -17,12 +17,10 @@ export default function NavBar() {
                     <Image className='andyimg' src={andy} roundedCircle />
                 </Col>
                 <Col md={12} s={10} xs={10}>
-                    <Nav className="flex-md-column">
-                        <Nav.Link href="#">
-                        </Nav.Link>
-                        <Nav.Link href="#PortFolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#About">About</Nav.Link>
-                        <Nav.Link href="#Contact">Contact</Nav.Link>
+                    <Nav className="flex-md-column justify-content-end">
+                        <Nav.Link className='nav-link' href="#PortFolio">Portfolio</Nav.Link>
+                        <Nav.Link className='nav-link' href="#About">About</Nav.Link>
+                        <Nav.Link className='nav-link' href="#Contact">Contact</Nav.Link>
                     </Nav>
                 </Col>
             </Row>
