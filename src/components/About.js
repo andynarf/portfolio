@@ -18,7 +18,7 @@ export default function About() {
 
             <Col md={6}>
                 <p>
-                    I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.
+                    I’m an aspiring web designer from Argentina, who loves everything about the web. I've  worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.
 
                     I’ve been a professional cook and I am a life-long learner who's always interested in expanding my skills.
             </p>
