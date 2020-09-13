@@ -20,9 +20,9 @@ export default function NavBar() {
                     <Nav className="flex-md-column">
                         <Nav.Link href="#">
                         </Nav.Link>
-                        <Nav.Link href="#">Portfolio</Nav.Link>
-                        <Nav.Link href="#">About</Nav.Link>
-                        <Nav.Link href="#">Contact</Nav.Link>
+                        <Nav.Link href="PortFolio">Portfolio</Nav.Link>
+                        <Nav.Link href="About">About</Nav.Link>
+                        <Nav.Link href="Contact">Contact</Nav.Link>
                     </Nav>
                 </Col>
             </Row>
