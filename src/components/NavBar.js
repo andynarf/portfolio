@@ -13,16 +13,16 @@ export default function NavBar() {
     return (
         <Container  >
             <Row>
-                <Col md={12} sm={3} xs={3}>
+                <Col md={12} sm={2} xs={2}>
                     <Image className='andyimg' src={andy} roundedCircle />
                 </Col>
-                <Col md={12} s={9} xs={9}>
+                <Col md={12} s={10} xs={10}>
                     <Nav className="flex-md-column">
                         <Nav.Link href="#">
                         </Nav.Link>
-                        <Nav.Link href="PortFolio">Portfolio</Nav.Link>
-                        <Nav.Link href="About">About</Nav.Link>
-                        <Nav.Link href="Contact">Contact</Nav.Link>
+                        <Nav.Link href="#PortFolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="#Contact">Contact</Nav.Link>
                     </Nav>
                 </Col>
             </Row>

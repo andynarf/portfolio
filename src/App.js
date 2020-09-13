@@ -19,14 +19,14 @@ function App() {
   return (
     <Container fluid className="App">
       <Row>
-        <Col md={4}>
+        <Col md={2}>
           <NavBar></NavBar>
         </Col>
-        <Col md={8}>
+        <Col md={10}>
           <Intro></Intro>
-          <PortFolio></PortFolio>
-          <About></About>
-          <Contact></Contact>
+          <PortFolio ></PortFolio>
+          <About ></About>
+          <Contact ></Contact>
         </Col>
       </Row>
 
