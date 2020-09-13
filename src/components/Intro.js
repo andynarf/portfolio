@@ -17,8 +17,8 @@ export default function Intro() {
                 Just kidding on the knife skills. :)
             </p>
             <div>
-            <a target='_blank' href='https://github.com/andynarf'> <FontAwesomeIcon size='3x'icon={['fab', 'github']} /></a>
-            <a target='_blank' href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='3x'icon={['fab', 'linkedin']}  /></a>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/andynarf'> <FontAwesomeIcon size='3x'icon={['fab', 'github']} /></a>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='3x'icon={['fab', 'linkedin']}  /></a>
             </div>
 
         </div>
