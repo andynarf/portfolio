@@ -1,0 +1,37 @@
+.icon-ruby { 
+    color:red;
+}
+.icon-html5 {
+    color: orange;
+    margin:0 8px;
+
+}
+.icon-css3 {
+    color:blue;
+
+}
+.icon-ruby-on-rails-alt {
+    color:red;
+    margin:0;
+
+}
+.icon-reactjs {
+    color: cyan;
+    margin:0 8px;
+
+}
+.icon-bootstrap {
+    color: purple;
+    margin:0 8px;
+}
+.icon {
+    margin:0 8px
+}
+.icon-postgres.size{
+    color:#336791;
+    font-size: 35px;
+}
+.size {
+    font-size: 30px;
+
+}
