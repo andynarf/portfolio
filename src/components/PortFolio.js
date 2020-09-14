@@ -44,7 +44,7 @@ export default function PortFolio() {
         <Row>
             <Col md={1}></Col>
         <Col md={10}>
-            <h2><a id='PortFolio' className='section-title' href='#PortFolio'> My Portfolio</a></h2>
+            <h2 className='portfolio-title-container'><a id='PortFolio' className='section-title' href='#PortFolio'> My Portfolio</a></h2>
                 <Container fluid>
                 
                 <Row>

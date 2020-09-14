@@ -12,6 +12,9 @@ p{
   font-family: Sora;
   font-style: normal;
 }
+li{
+  list-style-type:none
+}
 
 a:hover{
   text-decoration: none !important;
@@ -21,7 +24,7 @@ a:hover{
   font-family: Sora;
   font-style: normal;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.4rem;
   padding: 0 3rem ;
   margin-bottom: 2rem;
   color:#333
@@ -37,5 +40,9 @@ a:hover{
 @media  only screen and ( max-width: 760px) {
   .about-contact{
     background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%);  
+  }
+  .portfolio-title-container{
+    display: flex;
+    justify-content: center;
   }
 }
