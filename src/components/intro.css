@@ -4,6 +4,51 @@
 .align-right {
     text-align: right;
 }
+.azul-oscuro{
+    color: darkslateblue;
+}
 .intro{
     height: 100vh;
+    background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%);
+    background-blend-mode: screen;
+    color:white;
+    background-image: url(../images/Vector\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social-media-back{
+
+    color:#aaa;
+    background-color: #FFF;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 3000px;
+    align-items: center;
+
+}
+
+
+@media  only screen and ( max-width: 900px) {
+    .intro {
+        background-image: url(../images/Vector\ 12\ \(1\).png);
+        padding-top: 6rem;
+        height: 105vh;
+
+    }
+    .social-media-back{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .media-text{
+        display:none;
+        background-color: transparent;
+    }
+    .no-centered{
+        text-align: center;
+   }
+   h5 {
+       margin-top:-20px !important;
+       margin-bottom: 3rem !important;
+   }
 }

@@ -41,7 +41,9 @@ export default function PortFolio() {
 
     ]
     return (
-        <div>
+        <Row>
+            <Col md={1}></Col>
+        <Col md={10}>
             <h2><a id='PortFolio' href='#PortFolio'> My Portfolio</a></h2>
                 <Container fluid>
                 
@@ -60,7 +62,9 @@ export default function PortFolio() {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </Col>
+        
+        </Row>
     )
 }
 

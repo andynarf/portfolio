@@ -24,15 +24,21 @@ export default function Intro() {
                         building responsive apps and designs
                         with my education, pair-programming
                         experience, and precision knife skills.
-
+                        <br />
                         Just kidding on the knife skills. :)
             </p>
                 </Col>
             </Row>
-            <Row>
-                <Col className='align-right' md={8}>
-                    <a target='_blank' rel="noopener noreferrer" href='https://github.com/andynarf'> <FontAwesomeIcon size='3x' icon={['fab', 'github']} /></a>
-                    <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='3x' icon={['fab', 'linkedin']} /></a>
+            <Row >
+                <Col md={2}></Col>
+                <Col className='align-right social-media-back' md={6}>
+                    <p className='media-text'>
+                        My works in social media networks
+                    </p>
+                    <div>
+                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='3x' icon={['fab', 'linkedin']} /></a>
+                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://github.com/andynarf'> <FontAwesomeIcon size='3x' icon={['fab', 'github']} /></a>
+                    </div>
                 </Col>
                 <Col md={4}></Col>
             </Row>

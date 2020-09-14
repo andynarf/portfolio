@@ -11,26 +11,30 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Contact from './components/Contact'
+import Normalize from 'react-normalize'
 
 library.add(fab, faMobileAlt, faEnvelope)
 
 
 function App() {
   return (
-    <Container fluid className="App">
-      <Row>
-        <Col md={2}>
-          <NavBar></NavBar>
-        </Col>
-        <Col md={10}>
-          <Intro></Intro>
-          <PortFolio ></PortFolio>
-          <About ></About>
-          <Contact ></Contact>
-        </Col>
-      </Row>
+    <>
+      <Normalize></Normalize>
+      <Container fluid className="App">
+        <Row>
+          <Col md={2}>
+            <NavBar></NavBar>
+          </Col>
+          <Col md={10}>
+            <Intro></Intro>
+            <PortFolio ></PortFolio>
+            <About ></About>
+            <Contact ></Contact>
+          </Col>
+        </Row>
 
-    </Container>
+      </Container>
+    </>
   )
 }
 
