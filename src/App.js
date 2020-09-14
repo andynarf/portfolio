@@ -28,8 +28,10 @@ function App() {
           <Col md={10}>
             <Intro></Intro>
             <PortFolio ></PortFolio>
-            <About ></About>
-            <Contact ></Contact>
+            <div className='about-contact'>
+              <About ></About>
+              <Contact ></Contact>
+            </div>
           </Col>
         </Row>
 

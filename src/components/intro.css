@@ -63,6 +63,10 @@
        margin-top:-20px !important;
        margin-bottom: 3rem !important;
    }
+   .my-name{
+    font-size: 3rem;
+    padding-bottom: .5rem;
+}
 }
 @media  only screen and ( min-width: 900px) {
 

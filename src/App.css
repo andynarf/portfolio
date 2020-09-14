@@ -13,10 +13,6 @@ p{
   font-style: normal;
 }
 
-a{
-
-}
-
 a:hover{
   text-decoration: none !important;
 }
@@ -30,4 +26,16 @@ a:hover{
   margin-bottom: 2rem;
   color:#333
 
+}
+
+.about-contact{
+  background-image: url(./images/footer.png);
+  background-repeat: no-repeat;
+
+}
+
+@media  only screen and ( max-width: 760px) {
+  .about-contact{
+    background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%);  
+  }
 }

@@ -14,7 +14,8 @@ export default function About() {
 
     return (
         <Container>
-            <Col md={6}><h2><a id='About' href='#About' className='section-title'>About Me</a></h2></Col>
+            <div className='about-description'>
+            <Col md={6} className='about-title-container'><h2><a id='About' href='#About' className='section-title about'>About Me</a></h2></Col>
 
             <Col md={6}>
                 <p>
@@ -26,9 +27,10 @@ export default function About() {
 
 
             </Col>
-            <Row>
+            </div>
+            <Row className ='cards-row'>
                 <Col md={4}>
-                    <Card>
+                    <Card className='skills-cards'>
                         <Card.Body>
                             <Card.Title>Languages</Card.Title>
                             <Card.Text>
@@ -48,12 +50,12 @@ export default function About() {
                             <i class="icon-css3 size"></i>
                         </Card.Footer>
 
-                    </Card>
+                    </Card >
 
                 </Col>
 
                 <Col md={4}>
-                    <Card>
+                    <Card className='skills-cards'>
                         <Card.Body>
                             <Card.Title>Frameworks</Card.Title>
                             <Card.Text>
@@ -76,7 +78,7 @@ export default function About() {
                 </Col>
 
                 <Col md={4}>
-                    <Card>
+                    <Card className='skills-cards'>
                         <Card.Body>
                             <Card.Title>Tools</Card.Title>
                             <Card.Text>
