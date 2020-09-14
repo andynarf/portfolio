@@ -14,7 +14,7 @@ export default function About() {
 
     return (
         <Container>
-            <Col md={6}><h2><a id='About' href='#About'>About Me</a></h2></Col>
+            <Col md={6}><h2><a id='About' href='#About' className='section-title'>About Me</a></h2></Col>
 
             <Col md={6}>
                 <p>

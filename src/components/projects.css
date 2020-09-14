@@ -1,0 +1,12 @@
+.cards{
+    padding: 1rem;
+}
+.project-name{
+    text-align:center ;
+}
+.project-button{
+    text-align:center ;
+}
+.card-img{
+    border-radius: 40px !important;
+}

@@ -10,8 +10,8 @@ export default function Intro() {
             <Row>
                 <Col md={2}></Col>
                 <Col md={10}>
-                    <h1 className='no-centered'>Andres Rodriguez</h1>
-                    <h5 className='no-centered'>Software Developer</h5>
+                    <h1 className='no-centered my-name'>Andres Rodriguez</h1>
+                    <h5 className='no-centered subtitle'>Software Developer</h5>
                 </Col></Row>
             <Row>
                 <Col md={2}></Col>
@@ -29,7 +29,7 @@ export default function Intro() {
             </p>
                 </Col>
             </Row>
-            <Row >
+            <Row className='social-container'>
                 <Col md={2}></Col>
                 <Col className='align-right social-media-back' md={6}>
                     <p className='media-text'>

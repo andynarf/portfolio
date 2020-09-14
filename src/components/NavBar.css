@@ -6,6 +6,10 @@
 .nav-link {
     padding:4px 8px !important ;
 }
+.nav-container{
+    display:flex;
+    justify-content: center;
+}
 
 @media  only screen and ( max-width: 760px) {
     .navigation {

@@ -15,6 +15,7 @@
     background-image: url(../images/Vector\ 12.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 2rem;
 }
 .social-media-back{
 
@@ -26,23 +27,34 @@
     align-items: center;
 
 }
+.media-text{
+    margin:0;
+}
+
 
 
 @media  only screen and ( max-width: 900px) {
     .intro {
         background-image: url(../images/Vector\ 12\ \(1\).png);
         padding-top: 6rem;
-        height: 105vh;
+        height: 100vh;
 
     }
     .social-media-back{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        /* background-color: transparent; */
+        width: 60% !important;
+    }
+    .social-container{
+        margin-top: 2rem;
+        display:flex;
+        justify-content: center;
     }
     .media-text{
         display:none;
-        background-color: transparent;
+    
     }
     .no-centered{
         text-align: center;
@@ -51,4 +63,17 @@
        margin-top:-20px !important;
        margin-bottom: 3rem !important;
    }
+}
+@media  only screen and ( min-width: 900px) {
+
+    .my-name{
+        font-size: 5rem;
+        margin-bottom:0;
+    }
+    .subtitle{
+        font-size: 2rem;
+    }
+    p.no-centered{
+        padding-top: 3rem;
+    }
 }
