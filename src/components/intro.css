@@ -32,6 +32,8 @@
 }
 .media-text{
     margin:0;
+    color:lightseagreen;
+    margin-left: 2rem;
 }
 
 
@@ -48,7 +50,7 @@
         flex-wrap: wrap;
         justify-content: center;
         /* background-color: transparent; */
-        width: 60% !important;    }
+        width: 40% !important;    }
     .social-container{
         margin-top: 2rem;
         display:flex;
@@ -83,5 +85,8 @@
     }
     p.no-centered{
         padding-top: 3rem;
+    }
+    .media-icons{
+        margin-right: 1rem;
     }
 }
