@@ -41,6 +41,7 @@
   }
   .nav-link{
       padding:1rem 0 !important;
+      color:#333;
   }
   .nav-link:first-child{
     margin-top: 1rem !important;
