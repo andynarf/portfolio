@@ -53,6 +53,9 @@
     padding: 1rem;
     width: 70%;
   }
+  .about-container {
+    margin: 5rem;
+  }
 
 }
 
@@ -76,7 +79,5 @@
   .about {
     color: white;
   }
-  .about-container {
-    margin: 5rem;
-  }
+
 }
