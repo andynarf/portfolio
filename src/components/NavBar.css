@@ -1,37 +1,48 @@
 .andyimg {
-    height: 5rem;
-    width: 5rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .nav-link {
-    padding:4px 8px !important ;
+  padding: 4px 8px !important ;
 }
 
-@media  only screen and ( max-width: 760px) {
-    .navigation {
-        position:absolute;
-    }
-    .nav-container {
-        z-index: 100;
-        margin-top: 20px;    
-    }
-    .nav-bar{
-        display:flex;
-        align-items:center;    
-        justify-content: flex-end;
-        padding:3rem !important;
-        }
-    .nav-link {
-        color:white;
-    }
-
+@media only screen and (max-width: 760px) {
+  .navigation {
+    position: absolute;
+  }
+  .nav-container {
+    z-index: 100;
+    margin-top: 20px;
+    position: absolute;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3rem !important;
+  }
+  .nav-link {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+  }
 }
 
-@media  only screen and ( min-width: 760px) {
-    .nav-container{
-        display:flex;
-        justify-content: center;
-    }
-
+@media only screen and (min-width: 760px) {
+  .nav-container {
+    padding: 0;
+    margin: 0;
+    position: fixed !important;
+    left: 70px;
+    top: 40px;
+    width:auto !important;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-link{
+      padding:1rem 0 !important;
+  }
+  .nav-link:first-child{
+    margin-top: 1rem !important;
 }
-
+}

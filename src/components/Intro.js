@@ -36,8 +36,8 @@ export default function Intro() {
                         My works in social media networks
                     </p>
                     <div>
-                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='3x' icon={['fab', 'linkedin']} /></a>
-                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://github.com/andynarf'> <FontAwesomeIcon size='3x' icon={['fab', 'github']} /></a>
+                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://www.linkedin.com/in/andres-dev/'>   <FontAwesomeIcon size='2x' icon={['fab', 'linkedin']} /></a>
+                        <a target='_blank' className='azul-oscuro' rel="noopener noreferrer" href='https://github.com/andynarf'> <FontAwesomeIcon size='2x' icon={['fab', 'github']} /></a>
                     </div>
                 </Col>
                 <Col md={4}></Col>

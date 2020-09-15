@@ -13,21 +13,17 @@ import './about.css'
 export default function About() {
 
     return (
-        <Container>
-            <div className='about-description'>
-            <Col md={6} className='about-title-container'><h2><a id='About' href='#About' className='section-title about'>About Me</a></h2></Col>
-
-            <Col md={6}>
-                <p>
+        <Container className='about-container'>
+            <Container className='about-description'>
+            <h2 className='about-title-container'><a id='About' href='#About' className='section-title about'>About Me</a></h2>
+                <p className='about-text'>
                     I’m an aspiring web designer from Argentina, who loves everything about the web. I've  worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.
 
                     I’ve been a professional cook and I am a life-long learner who's always interested in expanding my skills.
             </p>
-            <Button variant="outline-primary" target='_blank' href='https://docs.google.com/document/d/1P2gTCf940el0PSFMpxcaos8foX7Dbe2iPIQ8BRiUQVo/edit?usp=sharing'>Get my Resume</Button>
+            <Button variant="info" target='_blank' href='https://docs.google.com/document/d/1P2gTCf940el0PSFMpxcaos8foX7Dbe2iPIQ8BRiUQVo/edit?usp=sharing'>Get my Resume</Button>
 
-
-            </Col>
-            </div>
+            </Container>
             <Row className ='cards-row'>
                 <Col md={4}>
                     <Card className='skills-cards'>

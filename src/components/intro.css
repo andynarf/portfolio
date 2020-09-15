@@ -13,6 +13,7 @@
     background-blend-mode: screen;
     color:white;
     background-image: url(../images/Vector\ 12.png);
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
@@ -25,6 +26,8 @@
     justify-content: space-between;
     border-radius: 3000px;
     align-items: center;
+    padding: 0.5rem;
+
 
 }
 .media-text{
@@ -45,15 +48,16 @@
         flex-wrap: wrap;
         justify-content: center;
         /* background-color: transparent; */
-        width: 60% !important;
-    }
+        width: 60% !important;    }
     .social-container{
         margin-top: 2rem;
         display:flex;
         justify-content: center;
+        
     }
     .media-text{
         display:none;
+
     
     }
     .no-centered{

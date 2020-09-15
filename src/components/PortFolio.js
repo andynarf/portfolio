@@ -7,6 +7,7 @@ import dodge from '../images/dodge.png'
 import calc from '../images/calc.png'
 import tictactoe from '../images/tictactoe.png'
 import todo from '../images/todo.png'
+import './portfolio.css'
 
 
 export default function PortFolio() {

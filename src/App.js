@@ -25,7 +25,7 @@ function App() {
           <Col md={2}>
             <NavBar></NavBar>
           </Col>
-          <Col md={10}>
+          <Col md={10} className="right-side">
             <Intro></Intro>
             <PortFolio ></PortFolio>
             <div className='about-contact'>

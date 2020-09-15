@@ -2,6 +2,9 @@
     font-size:1rem;
     color:white
 }
+.myemail:hover, .contact-icon:hover{
+    color:#DDD
+}
 .mail-container{
     display: flex;
     align-items: center;
@@ -13,6 +16,7 @@
     align-items: center;
     color: white ;
     margin-top: 3rem;
+    padding: 2rem;
 }
 .touch{
     color:white ; 

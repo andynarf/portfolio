@@ -3,13 +3,13 @@
 }
 
 h1,h2,h3,h4,h5{
-  font-family: Sora;
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: bold;
 }
 
 p{
-  font-family: Sora;
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
 }
 li{
@@ -21,7 +21,7 @@ a:hover{
 }
 
 .section-title{
-  font-family: Sora;
+  font-family: 'Titillium Web', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.4rem;
@@ -34,8 +34,11 @@ a:hover{
 .about-contact{
   background-image: url(./images/footer.png);
   background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100%;
 
 }
+
 
 @media  only screen and ( max-width: 760px) {
   .about-contact{

@@ -1,17 +1,18 @@
 import React from 'react'
 import andy from '../images/andy.jpg'
-import './NavBar.css'
 import Image from 'react-bootstrap/Image'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import './NavBar.css'
+
 
 
 
 export default function NavBar() {
     return (
-        <Container  className="position-absolute nav-container">
+        <Container  className="nav-container">
             <Row>
                 <Col md={12} sm={2} xs={2} >
                     <Image className='andyimg' src={andy} roundedCircle />
