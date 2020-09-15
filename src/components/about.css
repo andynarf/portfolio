@@ -30,9 +30,7 @@
 .size {
   font-size: 30px;
 }
-.about-container {
-  margin: 5rem;
-}
+
 .about-description {
   margin-bottom: 3rem;
 }
@@ -77,5 +75,8 @@
   }
   .about {
     color: white;
+  }
+  .about-container {
+    margin: 5rem;
   }
 }
