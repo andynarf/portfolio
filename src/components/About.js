@@ -15,7 +15,7 @@ export default function About() {
     return (
         <Container className='about-container'>
             <Container className='about-description'>
-            <h2 className='about-title-container'><a id='About' href='#About' className='section-title about'>About Me</a></h2>
+            <h2 className='about-title-container'><a id='About' href='#About' className='section-title about'>ABOUT ME</a></h2>
                 <p className='about-text'>
                     I’m an aspiring web designer from Argentina, who loves everything about the web. I've  worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.
 

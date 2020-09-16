@@ -2,9 +2,8 @@
   height: 5rem;
   width: 5rem;
 }
-
 .nav-link {
-  padding: 4px 8px !important ;
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -24,8 +23,11 @@
   }
   .nav-link {
     color: white;
-    font-family: 'Titillium Web', sans-serif;
-  }
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    /* text-transform: lowercase; */
+    padding: 0  4px !important;
+}
 }
 
 @media only screen and (min-width: 760px) {
@@ -41,7 +43,8 @@
   }
   .nav-link{
       padding:1rem 0 !important;
-      color:#333;
+      font-family: 'Roboto', sans-serif;
+      color: #07728e;
   }
   .nav-link:first-child{
     margin-top: 1rem !important;

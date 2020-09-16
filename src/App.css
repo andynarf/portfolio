@@ -3,14 +3,15 @@
 }
 
 h1,h2,h3,h4,h5{
-  font-family: 'Titillium Web', sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
   font-weight: bold;
 }
 
 p{
-  font-family: 'Titillium Web', sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color:#2d545e
 }
 li{
   list-style-type:none
@@ -21,7 +22,7 @@ a:hover{
 }
 
 .section-title{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.4rem;

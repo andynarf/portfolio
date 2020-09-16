@@ -5,7 +5,10 @@
     text-align: right;
 }
 .azul-oscuro{
-    color: darkslateblue;
+    color: rgb(39, 132, 185);
+}
+.intro-text{
+    color:white
 }
 .intro{
     height: 100vh;
@@ -50,7 +53,7 @@
         flex-wrap: wrap;
         justify-content: center;
         /* background-color: transparent; */
-        width: 40% !important;    }
+        width: 50% !important;    }
     .social-container{
         margin-top: 2rem;
         display:flex;

@@ -18,7 +18,7 @@ export default function Intro() {
         <Col md={2}></Col>
 
         <Col md={6}>
-          <p className="no-centered">
+          <p className="no-centered intro-text">
             Full stack developer and former Itamae (Traditional Japanese chef)
             hoping to combine my passion for building responsive apps and
             designs with my education, pair-programming experience, and

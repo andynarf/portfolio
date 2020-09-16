@@ -33,7 +33,7 @@ export default function PortFolio() {
             image: tictactoe,
             text: 'A Tic Tac Toe game made on Ruby.'
         }, {
-            name: 'react calculator',
+            name: 'React calculator',
             live: 'https://andy-calculator.herokuapp.com/',
             github: 'https://github.com/andynarf/my_calculator',
             image: calc,
@@ -45,7 +45,7 @@ export default function PortFolio() {
         <Row>
             <Col md={1}></Col>
         <Col md={10}>
-            <h2 className='portfolio-title-container'><a id='PortFolio' className='section-title' href='#PortFolio'> My Portfolio</a></h2>
+            <h2 className='portfolio-title-container'><a id='PortFolio' className='section-title' href='#PortFolio'> MY PORTFOLIO</a></h2>
                 <Container fluid>
                 
                 <Row>

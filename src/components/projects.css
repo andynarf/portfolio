@@ -10,3 +10,9 @@
 .card-img{
     border-radius: 40px !important;
 }
+.card-title{
+    color:#07728e;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

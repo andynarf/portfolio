@@ -19,9 +19,9 @@ export default function NavBar() {
                 </Col>
                 <Col md={12} s={10} xs={10} className='nav-bar'>
                     <Nav className="flex-md-column justify-content-end navigation">
-                        <Nav.Link className='nav-link' href="#PortFolio">Portfolio</Nav.Link>
-                        <Nav.Link className='nav-link' href="#About">About</Nav.Link>
-                        <Nav.Link className='nav-link' href="#Contact">Contact</Nav.Link>
+                        <Nav.Link className='nav-link' href="#PortFolio">PORTFOLIO</Nav.Link>
+                        <Nav.Link className='nav-link' href="#About">ABOUT</Nav.Link>
+                        <Nav.Link className='nav-link' href="#Contact">CONTACT</Nav.Link>
                     </Nav>
                 </Col>
             </Row>

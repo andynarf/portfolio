@@ -53,10 +53,10 @@
     padding: 1rem;
     width: 70%;
   }
-  /* .about-container {
-    margin: 5rem;
-  } */
-
+  .about{
+    color:#07728e;
+    letter-spacing: 2px;
+  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -78,6 +78,10 @@
   }
   .about {
     color: white;
+    letter-spacing: 2px;
+  }
+  .about-text{
+      color:white
   }
 
 }
