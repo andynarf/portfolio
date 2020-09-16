@@ -22,7 +22,8 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>My Portfolio</title>
-        <link rel="canonical" href="./demo.png" />
+        <meta property="og:image" content="./demo.png" />
+
       </Helmet>
       <Normalize></Normalize>
       <Container fluid className="App">
