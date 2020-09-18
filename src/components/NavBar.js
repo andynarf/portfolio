@@ -9,7 +9,7 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <div className="position-relative">
+    <div className="navbar-position">
       <Container className="nav-container">
         <Row className="nav-wrapper">
           <Col md={12} sm={3} xs={3} className="img-container">
