@@ -24,7 +24,7 @@ export default function Intro() {
             designs with my education, pair-programming experience, and
             precision knife skills.
             <br />
-            Just kidding on the knife skills. :)
+            Just kidding on the knife skills. ¯\_(ツ)_/¯
           </p>
         </Col>
       </Row>

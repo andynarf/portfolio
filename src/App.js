@@ -28,7 +28,7 @@ function App() {
       <Normalize></Normalize>
       <Container fluid className="App">
         <Row>
-          <Col md={2}>
+          <Col md={2} className='position-relative'>
             <NavBar></NavBar>
           </Col>
           <Col md={10} className="right-side">
