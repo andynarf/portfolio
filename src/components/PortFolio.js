@@ -34,10 +34,11 @@ export default function PortFolio() {
             text: 'A Tic Tac Toe game made on Ruby.'
         }, {
             name: 'React calculator',
-            live: 'https://andy-calculator.herokuapp.com/',
-            github: 'https://github.com/andynarf/my_calculator',
+            live: 'https://hulu-ui-clone.netlify.app/',
+            github: 'https://github.com/andynarf/hulu_clone',
             image: calc,
-            text: 'A calculator built with React.'
+            text: "This a clone of Hulu, the app to watch movies and series . Made in React, It's a fully responsive site."
+
         },
 
     ]
