@@ -33,7 +33,7 @@ export default function PortFolio() {
             image: tictactoe,
             text: 'A Tic Tac Toe game made on Ruby.'
         }, {
-            name: 'Hulo UI clone',
+            name: 'Hulu UI clone',
             live: 'https://hulu-ui-clone.netlify.app/',
             github: 'https://github.com/andynarf/hulu_clone',
             image: hulu,
