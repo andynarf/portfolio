@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import dodge from '../images/dodge.png'
-import calc from '../images/calc.png'
+import hulu from '../images/hulu.png'
 import tictactoe from '../images/tictactoe.png'
 import todo from '../images/todo.png'
 import './portfolio.css'
@@ -36,7 +36,7 @@ export default function PortFolio() {
             name: 'Hulo UI clone',
             live: 'https://hulu-ui-clone.netlify.app/',
             github: 'https://github.com/andynarf/hulu_clone',
-            image: calc,
+            image: hulu,
             text: "This a clone of Hulu, the app to watch movies and series . Made in React, It's a fully responsive site."
 
         },
