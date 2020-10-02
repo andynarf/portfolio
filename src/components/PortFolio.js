@@ -7,15 +7,24 @@ import dodge from '../images/dodge.png'
 import hulu from '../images/hulu.png'
 import tictactoe from '../images/tictactoe.png'
 import todo from '../images/todo.png'
+import cocktails from '../images/cocktails.png'
+import facebook from '../images/facebook.png'
 import './portfolio.css'
 
 
 export default function PortFolio() {
     const projects = [
         {
+            name: 'Cocktails Search',
+            live: 'https://tcdb.netlify.app/',
+            github: 'https://github.com/andynarf/Dodge-Game',
+            image: cocktails,
+            text: 'An application wherer you can see lots of cocktails, and search for your favourite one.'
+        },
+        {
             name: 'Dodge Game',
             live: 'https://dodge-game.netlify.app/',
-            github: 'https://github.com/andynarf/Dodge-Game',
+            github: 'https://github.com/andynarf/cocktails-search',
             image: dodge,
             text: 'Browser-based game that simulates a ship going through some sort of tunnel while encountering different obstacles.'
         },
@@ -39,6 +48,13 @@ export default function PortFolio() {
             image: hulu,
             text: "This a clone of Hulu, the app to watch movies and series . Made in React, It's a fully responsive site."
 
+        },{
+            name: 'Facebook Rails clone',
+            live: 'https://floating-wave-46859.herokuapp.com/',
+            github: 'https://github.com/webmarkyn/facebook-clone',
+            image: facebook,
+            text: "This is a Facebook clone built with Ruby on Rails"
+
         },
 
     ]
@@ -50,18 +66,11 @@ export default function PortFolio() {
                 <Container fluid>
                 
                 <Row>
-                    <Col md={6}>
-                        <Project project={projects[0]}></Project>
-                    </Col>
-                    <Col md={6}>
-                        <Project project={projects[1]}></Project>
-                    </Col>
-                    <Col md={6}>
-                        <Project project={projects[2]}></Project>
-                    </Col>
-                    <Col md={6}>
-                        <Project project={projects[3]}></Project>
-                    </Col>
+                    {projects.map((item)=>{
+                       return <Col md={6}>
+                            <Project project={item}></Project>
+                        </Col> 
+                    })}
                 </Row>
             </Container>
         </Col>
